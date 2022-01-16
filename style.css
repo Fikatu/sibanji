@@ -1,0 +1,98 @@
+.babul {
+  max-height: 1000px;
+  max-widht: 1000px;
+  margin: 10px;
+  text-align: center;
+  transition: all 1s;
+  justify-content: center;
+  background-size: 0px 0px;
+}
+
+.plm {
+  color: whitesmoke;
+  text-shadow: 100px;
+  transition: all 1s;
+  font-family: 'Orelega One', cursive;
+  fill            : none;
+  stroke          : black;
+  stroke-width    : 10px;
+  stroke-linejoin : round;
+  animation       : 2s pulsate infinite;
+  text-shadow: #000 0px 0px 5px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.babul:hover {
+  transform: scale(1.1);
+}
+
+p {
+  font-size: 5rem;
+  color: red;
+  text-shadow: 2px 2px 5px blue;
+}
+
+h1 {
+  color: whitesmoke;
+  text-shadow: 100px;
+  transition: all 1s;
+  font-family: 'Orelega One', cursive;
+  fill            : none;
+  stroke          : black;
+  stroke-width    : 10px;
+  stroke-linejoin : round;
+  animation       : 2s pulsate infinite;
+  text-shadow: #000 0px 0px 5px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1:hover {
+  transform: scale(1.1);
+}
+
+.sibanji {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(https://64.media.tumblr.com/ab0829de914da233d3a3ea8fdf7a8d2f/tumblr_pmy95nYpuq1qjmu1ko1_540.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.autorul {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.babul1 {
+  max-height: 1000px;
+  max-widht: 1000px;
+  margin: 10px;
+  text-align: center;
+  transition: all 3s;
+  justify-content: center;
+  background-size: 0px 0px;
+}
+
+.babul1:hover {
+  transform: scale(1.1);
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(https://64.media.tumblr.com/ab0829de914da233d3a3ea8fdf7a8d2f/tumblr_pmy95nYpuq1qjmu1ko1_540.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
