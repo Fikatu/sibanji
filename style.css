@@ -8,12 +8,22 @@ html {
 
 .sajb {
   background-color: #7abcff;
-  background-size: cover;
-  max-width: 400px;
+  background-size: 2rem;
+  max-width: 15rem;
+  color: whitesmoke;
+  font-family: Anton;
+  font-size: 4rem;
+  fill: none;
+  stroke: green;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  text-shadow: #000 0px 0px 1px;
 }
 
 .sabj {
-  color: green;
+  color: whitesmoke;
+  font-family: Anton;
+  font-size: 2rem;
   fill: none;
   stroke: green;
   stroke-width: 2px;
@@ -46,6 +56,14 @@ html {
   text-shadow: #000 0px 0px 5px;
   -webkit-font-smoothing: antialiased;
 }
+
+.bounce:active {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: headShake;
+  animation-duration: 0.2s;
+}
+
 
 .babul:hover {
   transform: scale(1.1);
@@ -118,7 +136,7 @@ html {
 
 .prost {
   background: url(bgrd.jpg) no-repeat center center fixed;
-  max-width: 700px;
-  max_height: 600px;
+  max-width: 1000px;
+  max_height: 1000px;
   background-size: cover;
 }
