@@ -29,7 +29,9 @@
 p {
   font-size: 5rem;
   color: red;
-  text-shadow: 2px 2px 5px blue;
+  stroke: black;
+  stroke_width: 10px;
+  stroke-linejoin: round;
 }
 
 h1 {
