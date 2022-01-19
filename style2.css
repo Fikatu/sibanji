@@ -11,14 +11,17 @@ html {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #e2dbdd;
+  margin-left: 130px;
+  margin-top: 200px;
 }
 
 hr {
   border-color: #F05F44;
   border-width: 20px;
   max-widht: 65px;
+  font-weith: bold;
 }
 
 .buffer {
@@ -36,7 +39,7 @@ hr {
   border-color: #F05F44;
 }
 
-.btn-primary:hover {
+.btn-primary {
   background-color: #ee4b08;
   border-color: #ee4b08;
   border-width: 4px;
